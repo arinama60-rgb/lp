@@ -1,0 +1,44 @@
+# Практична робота
+# Створення списку. Поняття одновимірного масиву
+
+print("ЗАВДАННЯ 1")
+
+empty_list = list()
+print(empty_list)
+
+string_list = list("Python")
+print(string_list)
+
+tuple_data = (1, 2, 3, 4)
+tuple_list = list(tuple_data)
+print(tuple_list)
+
+numbers = [10, -5, 7, 0]
+print(numbers)
+
+my_list = []
+my_list.append(7)
+my_list.append(-10)
+print(my_list)
+
+print("ЗАВДАННЯ 2")
+
+A1 = []
+for i in range(4):
+    element = input("Елемент " + str(i + 1) + ": ")
+    A1.append(element)
+print(A1)
+
+A2 = []
+n = int(input("Скільки елементів ввести? "))
+for i in range(n):
+    element = input("Елемент " + str(i + 1) + ": ")
+    A2.append(element)
+print(A2)
+
+A3 = []
+n = int(input("Скільки цілих чисел ввести? "))
+for i in range(n):
+    element = int(input("Число " + str(i + 1) + ": "))
+    A3.append(element)
+print(A3)
